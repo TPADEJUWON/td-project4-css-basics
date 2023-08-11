@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px;
+}
+
+header{
+    background-color: teal;
+    color: white;
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+header h1{
+    font-size: 30px;
+}
+    
+.buttons{
+    margin-left:500px;
+    padding-top: 30px;
+    font-size: 18px; 
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.buttons a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px;
+    
+}
+.white h2{
+    color: teal;
+}
+.white img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    align-items: center;
+}
+.white{
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.teal{
+    background-color: teal;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    
+}
+.teal_item{
+    width: 35%;
+}
+.Benin{
+    padding: 80px;
+}
+.Benin_wrap{
+    display: flex;
+   
+    justify-content: space-between;
+}
+.Benin #tag{
+    color: teal;
+}
+.Benin_item{
+    width: 30%;
+}
+.Benin_item:nth-child(1){
+    background-color: rgb(4, 36, 36);
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+
+}
+.Benin_item:nth-child(2){
+    background-color: rgb(4, 36, 36);
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+
+}
+.Benin_item:nth-child(3){
+    background-color: rgb(4, 36, 36);
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+
+}
+.social{
+    background-color: teal;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
